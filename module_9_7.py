@@ -19,5 +19,6 @@ def sum_three(*args):
         lst += num
     return lst
 
+#res
 result = sum_three(2, 3, 6)
 print(result)

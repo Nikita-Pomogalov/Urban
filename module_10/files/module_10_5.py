@@ -25,7 +25,7 @@ if __name__ == '__main__':
     with multiprocessing.Pool(processes=8) as pool:
         pool.map(read_info, files)
 
-        end = datetime.datetime.now()
+    end = datetime.datetime.now()
     print(end - start)
 
 # 0:00:00.787510

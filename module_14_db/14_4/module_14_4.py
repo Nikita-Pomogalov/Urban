@@ -15,6 +15,7 @@ logging.basicConfig(level=logging.INFO)
 bot = Bot(token=config.bot_token.get_secret_value())
 
 dp = Dispatcher()
+initiate_db()
 class UserState(StatesGroup):
     age = State()
     growth = State()
